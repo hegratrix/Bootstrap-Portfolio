@@ -20,7 +20,7 @@ header {
     color: white;
 }
 
-.about {
+.section {
     background: white;
     border: 2px solid #636565;
     width: 1080px;
@@ -97,15 +97,8 @@ a:hover {
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 20px;
-}
-
-.portfolio {
-    background: white;
-    border: 2px solid #636565;
-    width: 1080px;
-    padding: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
 }
 
 .game {
@@ -130,4 +123,25 @@ a:hover {
     border-color: #636565;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+}
+
+label {
+    font-family:'Handlee', cursive;
+    color: #636565;
+    font-size: 15px;
+    margin-bottom: -2px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control {
+    border: 1px solid #636565;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(105, 206, 207);
+    font-family: 'Poppins', sans-serif;
 }
