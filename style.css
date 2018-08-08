@@ -1,0 +1,97 @@
+body {
+    background-image: url("images/regal.png")
+}
+header {
+    background: #636565;
+    border-bottom: 3px solid #8FC747;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    padding: 15px;
+    background: rgb(105, 206, 207);
+    color: white;
+}
+
+.about {
+    background: white;
+    border: 2px solid #636565;
+    width: 1080px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    width: 1030px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: #636565;
+    border-bottom: 3px solid rgb(105, 206, 207);
+    padding-bottom: 10px;
+}
+
+p {
+    color: #636565;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.media {
+    padding-top: 10px;
+}
+
+#MyPicture {
+    width: 200px;
+    border: 2px solid #636565;
+}
+
+.follow {
+    width: 30px;
+    height: 30px;
+}
+
+.links {
+    background: white;
+    border: 2px solid #636565;
+    width: 1080px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.followMe {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(105, 206, 207);
+    text-align: center;
+}
+
+.followlink {
+    font-size: 20px;
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    font-size: 25px;
+    color: rgb(105, 206, 207);
+}
+
+footer {
+    font-family: 'Dancing Script', cursive;
+    background: #636565;
+    border-top: 3px solid #8FC747;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
