@@ -87,11 +87,47 @@ a:hover {
     color: rgb(105, 206, 207);
 }
 
-footer {
-    font-family: 'Dancing Script', cursive;
+.footer {
+    float: none;
+    display: inline-block;
     background: #636565;
     border-top: 3px solid #8FC747;
     height: 50px;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 20px;
+}
+
+.portfolio {
+    background: white;
+    border: 2px solid #636565;
+    width: 1080px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.game {
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-color: #636565;
+    border-width: 2px;
+    margin-top: 15px;
+}
+
+.title {
+    background-color: rgb(105, 206, 207);
+    padding: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #636565;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
